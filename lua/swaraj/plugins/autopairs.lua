@@ -8,5 +8,4 @@ return {
     }
     require('bamboo').load()
   end,
-},
-
+}
