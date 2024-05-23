@@ -23,10 +23,7 @@ return {
       -- ensure these language parsers are installed
       ensure_installed = {
         "json",
-        "javascript",
-        "html",
-        "css",
-        "bash",
+       "bash",
         "lua",
         "vim",
 	    "c",

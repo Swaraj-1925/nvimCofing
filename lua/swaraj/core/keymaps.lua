@@ -2,8 +2,9 @@ vim.g.mapleader = " "
 
 local keymap = vim.keymap -- for conciseness
 
-keymap.set("n", "<leader>|", vim.cmd.Ex,{desc ="go to home page"})
-keymap.set("i", "as", "<ESC>", { desc = "Exit insert mode with as" })
+
+keymap.set("n", "<leader>/", vim.cmd.Ex,{desc ="go to home page"})
+keymap.set("i", "??", "<ESC>", { desc = "Exit insert mode with as" })
 
 -- when the text is select this will whole text up and down
 keymap.set("v", "J", ":m '>+1<CR>gv=gv")
